@@ -1,0 +1,10 @@
+Use this to run the code.
+1) Please ensure Python 3 or a later version is installed.
+2) Install/update required libraries i.e., pip install imutils, pip install cv2
+3) Save the python file and the images folder to this path i.e. C:\Users\'Your name'.
+ This is so because generally our softwares such as python files are stored here along with other library packages required. 
+4) Open Command Prompt or Anaconda Prompt. I have employed the use of Argparse (command line parsing module in python lib), 
+which issues commands directly to the command line allowing for greater flexibility without revisiting the code frequently.
+5) Enter the following command "python detect.py --images images"
+6) You should see the output of my project on the set of images included in the 'images' folder, with two output screens;
+one depicting the image before non-mamximum suppression and one after. 
